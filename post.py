@@ -1,4 +1,4 @@
-def find_amount_platforms(weight, limit):
+def find_amount_platforms(weight: list[int], limit: int) -> int:
     """Возвращает количество платформ, необходимых для перевозки."""
     weight.sort()
     count_value = 0
