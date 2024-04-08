@@ -1,3 +1,4 @@
+# Номер успешной посылки 110220289
 def find_amount_platforms(weight: list[int], limit: int) -> int:
     """Возвращает количество платформ, необходимых для перевозки."""
     weight.sort()
